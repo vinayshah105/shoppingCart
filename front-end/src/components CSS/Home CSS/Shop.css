@@ -1,0 +1,18 @@
+.shopImage {
+  height: 10rem;
+}
+#shopHead{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+#catalog {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.catalogCard {
+  margin: 1.5rem;
+  cursor: pointer;
+}

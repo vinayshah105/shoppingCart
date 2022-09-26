@@ -1,0 +1,63 @@
+#dealHead {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  text-decoration: underline;
+}
+.deal {
+  display: flex;
+  justify-content: space-evenly;
+}
+.dealImg {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  cursor: pointer;
+}
+.dealImgPoster {
+  width: -webkit-fill-available;
+}
+@media screen and (max-width: 64rem) {
+  .deal {
+    width: 100%;
+  }
+  .dealImg1 {
+    width: 100%;
+  }
+  .dealImg2 {
+    width: 100%;
+  }
+  .dealImgPoster {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .deal {
+    width: 100%;
+  }
+  .dealImg1 {
+    width: 100%;
+  }
+  .dealImg2 {
+    width: 100%;
+  }
+  .dealImgPoster {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 32rem) {
+  .deal {
+    width: 100%;
+  }
+  .dealImg1 {
+    width: 100%;
+  }
+  .dealImg2 {
+    width: 100%;
+  }
+  .dealImgPoster {
+    width: 100%;
+  }
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Megrim&family=Oswald&family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu:wght@500&display=swap");
+
+.card_main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card_c {
+  width: 17rem;
+  height: 30rem;
+  margin: 25px;
+}
+Card-Body {
+  font-family: "Poppins", sans-serif;
+}
+.card_img_main {
+  overflow: hidden;
+}
+.card_img {
+  transition: transform 0.2s;
+  height: 275px;
+  width: 275px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.card_img :hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.card_text {
+  margin: 2px;
+}
+.card_title {
+  float: right;
+  margin: 2px;
+}
+.card_discount {
+  float: right;
+  color: red;
+  margin: 2px;
+  font-weight: bold;
+}
+.size {
+  text-align: center;
+}
+.size_button {
+  margin-bottom: 10px;
+}
+.size_button_sml {
+  font-size: 14px;
+  height: 35px;
+}
+.cart_button {
+  width: 100%;
+}
